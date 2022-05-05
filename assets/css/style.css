@@ -4,3 +4,29 @@
    padding: 0;
    box-sizing: border-box; 
 }
+
+/*Header*/
+
+header {
+    display: flex;
+    background-color: #000A90;
+    justify-content: space-around;
+    
+}
+
+header h1 a {
+    padding-top: 20px;
+    color:black
+}
+
+nav {
+    display: flex;
+    flex-wrap:wrap;
+    color:#946B2D;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+nav li a {
+    text-decoration: none;
+}
