@@ -48,7 +48,7 @@ ul {
 }
 
 ul li a {
-    padding:0 20px;
+    padding:0 20px 0 20px;
     text-decoration: none;
     color: rgb(33, 33, 144);
     display: inline-block;
@@ -148,6 +148,7 @@ ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .challenge-one img {
@@ -155,7 +156,6 @@ ul li a:hover {
     max-width: 500px;
     border:rgb(33, 33, 144) solid 10px;
     margin: 10px;
-    border: rgb(33, 33, 144) solid 10px;
 }
 
 .factoring h3{
@@ -169,6 +169,38 @@ ul li a:hover {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/*Future Projects*/
+.future {
+    border-top:rgb(33, 33, 144) solid 20px;
+}
+
+.future img {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 200px;
+    max-height: 150px;
+    margin-top: 15px;
+    border:rgb(33, 33, 144) solid 10px;
+}
+
+.future h3 {
+    color:rgb(33, 33, 144);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.future p {
+    font-size:25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+
 
 /*Utilities*/
 
