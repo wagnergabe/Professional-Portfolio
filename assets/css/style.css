@@ -10,6 +10,8 @@
 body {
     background-color: rgb(185, 179, 179);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -200,12 +202,37 @@ ul li a:hover {
     margin: 10px 20px;
 }
 
+/*Footer*/
+
+footer {
+    background: rgb(33, 33, 144);
+    margin-top: auto;
+    color: white;
+    position:sticky;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    
+}
+
+footer h4 {
+    align-self: center;
+}
+
+footer ul li {
+    margin: 5px 15px;
+}
+
+footer ul li a {
+    color:white;
+}
 
 
 /*Utilities*/
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 /*Media Queries*/
