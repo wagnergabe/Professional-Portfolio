@@ -1,9 +1,17 @@
+
+
 /*Universal Selector*/
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box; 
 }
+
+body {
+    background-color: rgb(185, 179, 179);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 
 /*Header*/
 
@@ -12,13 +20,14 @@ header {
     flex-direction: row;
     flex-wrap:wrap;
     background-color: rgb(185, 179, 179);
-    justify-content: space-between;
-    opacity: 1;
+    height:50px;
+    justify-content: space-around;
+    align-items: center;
     
 }
 
 header h1 {
-    font-size:40px;
+    font-size:20px;
     margin:5px;
     padding: 10px;
     background-color: rgb(33, 33, 144);
@@ -33,51 +42,45 @@ header h1 a {
     text-decoration: none;
 }
 
-header nav {
-    text-align: center;
-}
-
-header nav ul {
-
-    list-style: none;
+ul {
     display: flex;
-    flex-wrap:wrap;
+    list-style: none;
+}
+
+ul li a {
+    padding:0 20px;
+    text-decoration: none;
+    color: rgb(33, 33, 144);
+    display: inline-block;
+}
+
+ul li a:hover {
+    background-color: tan;
+}
+
+/*Profile*/
+.flex-container {
+    display: flex;
+    margin-top: 30px;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
 }
 
-header nav ul li a {
-    text-decoration: none;
-    font-size: 20px;
-    margin-top:10px;
-
+.bio h2 {
+    font-size: 34px;
 }
 
-
-header a {
-    text-decoration: none;
-    color: #fce138
+.bio p {
+    font-size: 30px;
 }
 
-header nav {
-    margin: 7px 0;
+.profile {
+    flex: 0 1 0;
 }
 
-header nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-  position:relative;
-  top: 25px;
+.profile img {
+    max-height: 400px;
+    max-width: 300px;
 }
 
-header nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 20px; 
-}
-.profile-img {
-
-}
+/*Media Queries*/
