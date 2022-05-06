@@ -52,6 +52,7 @@ ul li a {
     text-decoration: none;
     color: rgb(33, 33, 144);
     display: inline-block;
+    font-size: 22px;
 }
 
 ul li a:hover {
@@ -88,20 +89,29 @@ ul li a:hover {
 }
 
 /*Run Buddy*/
+#run-buddy {
+    border-top:rgb(33, 33, 144) 15px solid;
+    border-bottom:rgb(33, 33, 144) 15px solid;
+    
+}
+
 #run-buddy h2 {
     font-weight: 600;
     font-size: 30px;
     color: yellow;
     text-align: center;
+    margin-top: 20px;
 }
 
 .run-buddy-web img {
     display: block;
     border: 10px solid yellow;
+    border-radius: 15%;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
     font-display: none;
+    margin-top: 20px;
 }
 
 .run-buddy-web img:hover {
@@ -117,6 +127,8 @@ ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     font-family: 'Times New Roman', Times, serif;  
+    margin:0 15px;
+    
 }
 
 .run-text ol li {
@@ -127,13 +139,42 @@ ul li a:hover {
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: underline;
+    
+}
+
+/*Code Refactoring*/
+
+.challenge-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.challenge-one img {
+    max-height: 700px;
+    max-width: 500px;
+    border:rgb(33, 33, 144) solid 10px;
+    margin: 10px;
+    border: rgb(33, 33, 144) solid 10px;
+}
+
+.factoring h3{
+    color:rgb(33, 33, 144);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.factoring p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*Utilities*/
+
 html {
     scroll-behavior: smooth;
 }
-
 
 /*Media Queries*/
 
