@@ -100,10 +100,38 @@ ul li a:hover {
     border: 10px solid yellow;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
+    font-display: none;
 }
 
 .run-buddy-web img:hover {
+    border:rgb(33, 33, 144) solid 10px;
+    opacity: .5;
+
+}
+
+.run-text p {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+.run-text ol li {
+    display: flex;
+    margin-top: 10px;
+    text-align:center;
+    flex-direction: column;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+/*Utilities*/
+html {
+    scroll-behavior: smooth;
 }
 
 
