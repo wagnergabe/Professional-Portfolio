@@ -68,6 +68,8 @@ ul li a:hover {
 
 .bio h2 {
     font-size: 34px;
+    color: rgb(33, 33, 144);
+    text-align: center;
 }
 
 .bio p {
@@ -81,6 +83,41 @@ ul li a:hover {
 .profile img {
     max-height: 400px;
     max-width: 300px;
+    border:rgb(33, 33, 144) solid 10px;
+    margin: 10px;
 }
 
+/*Run Buddy*/
+#run-buddy h2 {
+    font-weight: 600;
+    font-size: 30px;
+    color: yellow;
+    text-align: center;
+}
+
+.run-buddy-web img {
+    display: block;
+    border: 10px solid yellow;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.run-buddy-web img:hover {
+}
+
+
 /*Media Queries*/
+
+@media screen and (max-width: 575px) {
+    .flex-container {
+        flex-wrap:wrap;
+        justify-content: center;
+        }
+
+    .flex-container h2 {
+        text-align:center;
+    }
+
+    
+}
