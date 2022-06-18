@@ -185,6 +185,21 @@ ul li a:hover {
     border:rgb(33, 33, 144) solid 10px;
 }
 
+.future img:hover{
+border:rgb(33, 33, 144) solid 10px;
+opacity: .5;
+}
+
+.future li {
+    text-align: center;
+    text-decoration: underline;
+    list-style-type: none;
+    font-size: 24px;
+    color:rgb(33, 33, 144);
+
+}
+
+
 .future h3 {
     color:rgb(33, 33, 144);
     font-size: 30px;
